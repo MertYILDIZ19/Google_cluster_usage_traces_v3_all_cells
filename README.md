@@ -17,7 +17,9 @@ In our pursuit to enable more efficient computational resource management, we ha
 | 2019-05-h | 1 May 2019 00:00 PDT      | Europe/Brussels    |
 
 
+
 After preprocessing and thorough analysis the data has been constructed as follows:
+
 
 
 | Job_ID        | Task_ID       | Arrival_Time | CPU   | Memory |
@@ -34,9 +36,13 @@ After preprocessing and thorough analysis the data has been constructed as follo
 The table above outlines the processed dataset with the following columns:
 
 -Job_ID: A unique identifier for each job, represented by a hashed number assigned by Google. Each job may encompass multiple tasks.
+
 -Task_ID: The index of individual tasks within a job. For example, J_1 and J_2 are jobs each consisting of a single task (indexed as 0), while J_3 is a job comprising tasks indexed as 0 and 1, and J_4 includes tasks indexed as 0, 1, and 2.
+
 -Arrival_Time: The time at which jobs are received, recorded in milliseconds. It is presumed that all tasks under a job arrive concurrently.
+
 -CPU_Usage: The CPU resources each task requires for execution.
+
 -Memory_Usage: The amount of memory resources required for each task.
 
 
