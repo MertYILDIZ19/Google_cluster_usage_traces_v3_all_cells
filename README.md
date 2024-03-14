@@ -16,11 +16,11 @@ In our pursuit to enable more efficient computational resource management, we ha
 | 2019-05-g | 1 May 2019 00:00 PDT      | Asia/Singapore     |
 | 2019-05-h | 1 May 2019 00:00 PDT      | Europe/Brussels    |
 
-
+***
 
 After preprocessing and thorough analysis the data has been constructed as follows:
 
-
+***
 
 | Job_ID        | Task_ID       | Arrival_Time | CPU   | Memory |
 | ------------- | ------------- | -------------| ---   | -------|
@@ -32,7 +32,7 @@ After preprocessing and thorough analysis the data has been constructed as follo
 | J_4   | 1             |   609237  | 15.12 | 0.0027 |
 | J_4   | 2             |   609237  | 1.689 | 0.0018 |
 
-
+***
 The table above outlines the processed dataset with the following columns:
 
 -Job_ID: A unique identifier for each job, represented by a hashed number assigned by Google. Each job may encompass multiple tasks.
@@ -47,9 +47,9 @@ The table above outlines the processed dataset with the following columns:
 
 
 
+***
 
-
-In the zip file there are all the informations that we have mentioned above for 8 different cells. 
+In the zip file there are all the informations that we have mentioned above for 8 different data centers. 
 The data can be found and downloaded [here](https://drive.google.com/file/d/1WryZF0o-7LOB0gmpw0C9xPFIMa9kd2DU/view?usp=sharing)
 
 
