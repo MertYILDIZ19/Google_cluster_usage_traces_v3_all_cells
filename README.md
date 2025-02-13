@@ -1,9 +1,19 @@
-# Google_cluster_usage_traces_v3_all_cells
-
+# Google cluster usage traces v3 all cells
 
 A large dataset of workload measurements has been released by Google for the month of May 2019. This robust collection details user requests and the corresponding utilization of cloud resources, totaling a significant 2.4TB in size. It encompasses data from eight distinct data centers, as delineated in the subsequent table. For a more granular breakdown of the trace data and its various components, please refer to the detailed documentation provided [here](https://drive.google.com/file/d/10r6cnJ5cJ89fPWCgj7j4LtLBqYN9RiI9/view).
 
 In our pursuit to enable more efficient computational resource management, we have conducted an extensive analysis of the dataset. The result is a curated set of data, meticulously preprocessed to extract only the most pertinent information for advancing dispatching and scheduling algorithms. 
+
+## Related Publication
+
+This dataset has been used in the following research paper:
+
+📄 **M. Yildiz and A. Baiocchi,**  
+**"Data-driven workload generation based on Google data center measurements,"**  
+*2024 IEEE 25th International Conference on High Performance Switching and Routing (HPSR)*, 2024.  
+[🔗 Read the full paper](https://ieeexplore.ieee.org/document/10635925)
+
+## Dataset Overview
 
 | Trace    | Trace start (t=600s)       | Timezone           |
 |----------|----------------------------|--------------------|
@@ -33,24 +43,10 @@ After preprocessing and thorough analysis the data has been constructed as follo
 | J_4   | 2             |   609237  | 1.689 | 0.0018 |
 
 ***
-The table above outlines the processed dataset with the following columns:
+### Column Descriptions:
 
--Job_ID: A unique identifier for each job, represented by a hashed number assigned by Google. Each job may encompass multiple tasks.
-
--Task_ID: The index of individual tasks within a job. For example, J_1 and J_2 are jobs each consisting of a single task (indexed as 0), while J_3 is a job comprising tasks indexed as 0 and 1, and J_4 includes tasks indexed as 0, 1, and 2.
-
--Arrival_Time: The time at which jobs are received, recorded in milliseconds. It is presumed that all tasks under a job arrive concurrently.
-
--CPU_Usage: The CPU resources each task requires for execution.
-
--Memory_Usage: The amount of memory resources required for each task.
-
-
-
-***
-
-In the zip file there are all the informations that we have mentioned above for 8 different data centers. 
-
-The data can be found and downloaded [here](https://drive.google.com/file/d/1WryZF0o-7LOB0gmpw0C9xPFIMa9kd2DU/view?usp=sharing)
-
-
+- **Job_ID**: A unique identifier for each job, represented by a hashed number assigned by Google. Each job may encompass multiple tasks.
+- **Task_ID**: The index of individual tasks within a job. For example, J_1 and J_2 are jobs each consisting of a single task (indexed as 0), while J_3 is a job comprising tasks indexed as 0 and 1, and J_4 includes tasks indexed as 0, 1, and 2.
+- **Arrival_Time**: The time at which jobs are received, recorded in milliseconds. It is presumed that all tasks under a job arrive concurrently.
+- **CPU_Usage**: The CPU resources each task requires for execution.
+- **Memory_Usage**: The amount of memory resources required for each task.
