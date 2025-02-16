@@ -50,3 +50,7 @@ After preprocessing and thorough analysis the data has been constructed as follo
 - **Arrival_Time**: The time at which jobs are received, recorded in milliseconds. It is presumed that all tasks under a job arrive concurrently.
 - **CPU_Usage**: The CPU resources each task requires for execution.
 - **Memory_Usage**: The amount of memory resources required for each task.
+
+### Data Access
+
+To access the data you can sent the request through [here](https://drive.google.com/file/d/1WryZF0o-7LOB0gmpw0C9xPFIMa9kd2DU/view?usp=drive_link).
