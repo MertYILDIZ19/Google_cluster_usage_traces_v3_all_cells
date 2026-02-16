@@ -13,6 +13,22 @@ This dataset has been used in the following research paper:
 *2024 IEEE 25th International Conference on High Performance Switching and Routing (HPSR)*, 2024.  
 [🔗 Read the full paper](https://ieeexplore.ieee.org/document/10635925)
 
+📄 **M. Yildiz, A. Rolich, and A. Baiocchi,**  
+**"The merit of simple policies: Buying performance with parallelism and system architecture,"**  
+*IEEE INFOCOM 2025 – IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)*, 2025.  
+[🔗 Read the full paper](https://ieeexplore.ieee.org/document/11152765)
+
+📄 **M. Yildiz, A. Rolich, and A. Baiocchi,**  
+**"Dispatching Odyssey: Exploring Performance in Computing Clusters under Real-world Workloads,"**  
+*2025 36th International Teletraffic Congress (ITC-36)*, 2025.  
+[🔗 Read the full paper](https://ieeexplore.ieee.org/abstract/document/11078624)
+
+📄 **M. Yildiz, A. Rolich, and A. Baiocchi,**  
+**"Two-Stagification: Job Dispatching in Large-Scale Clusters via a Two-Stage Architecture,"**  
+*2025 23rd Mediterranean Communication and Computer Networking Conference (MedComNet)*, 2025.  
+[🔗 Read the full paper](https://ieeexplore.ieee.org/abstract/document/11103543)
+
+
 ## Dataset Overview
 
 | Trace    | Trace start (t=600s)       | Timezone           |
